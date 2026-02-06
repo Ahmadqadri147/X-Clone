@@ -1,0 +1,14 @@
+{
+  "name": "x-clone-tailwind",
+  "version": "1.0.0",
+  "scripts": {
+    "build:css": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "dev:vite": "vite",
+    "dev": "concurrently \"npm run build:css\" \"npm run dev:vite\""
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.0",
+    "concurrently": "^8.2.0",
+    "vite": "^5.0.0"
+  }
+}

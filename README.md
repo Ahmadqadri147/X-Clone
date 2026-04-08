@@ -1,48 +1,47 @@
-# X (Twitter) Clone - Tailwind CSS
+# X-Clone
 
-A responsive, dark-themed clone of the X (formerly Twitter) user interface, built using HTML and Tailwind CSS.
+A responsive, dark-themed clone of the X (formerly Twitter) user interface, designed using semantic HTML5 and Tailwind CSS. This project replicates the core UI elements and layout of X with a focus on mobile-first design and smooth interactivity.
 
-## 🚀 Features
+---
 
-- **Responsive Grid Layout**:
-  - **Mobile**: Streamlined feed view.
-  - **Tablet**: Adds the left navigation sidebar.
-  - **Desktop**: Full 3-column layout including trends and suggestions.
-- **Dark Mode UI**: Styled with `bg-black` and `text-white` to match the official X aesthetic.
-- **Interactive Elements**:
-  - Hover states on navigation, tweets, and buttons.
-  - Sticky header with backdrop blur (`backdrop-blur-md`).
-  - Sticky left sidebar for easy navigation.
+## Description
 
-## 🛠️ Technologies
+X-Clone is a front-end application that recreates the look and feel of the X social media platform’s user interface. Built with Tailwind CSS utility classes and semantic HTML, it delivers an adaptive, modern UI featuring responsive layouts and dark mode styling. The project serves as an educational example of responsive design, CSS utility frameworks, and interactive UI patterns.
 
-- **HTML5**: Semantic markup structure.
-- **Tailwind CSS**: Utility-first CSS framework for rapid UI development.
+---
 
-## 📂 Project Structure
+## Key Features
 
-```
-├── index.html          # Main application file
-└── dist/
-    └── output.css      # Compiled Tailwind CSS styles
-```
+- **Responsive Layout:**  
+  - **Mobile:** Simplified single-column feed view for small screens.  
+  - **Tablet:** Adds a left navigation sidebar for improved usability.  
+  - **Desktop:** Fully featured three-column layout including trend panels and user suggestions.
 
-## ⚡ How to Run
+- **Dark Mode Styling:**  
+  Styled with Tailwind’s `bg-black` and `text-white` utilities to replicate X's official aesthetic.
 
-1. **Download** the project files.
-2. Ensure the `dist/output.css` file exists (this contains the styles).
-3. **Open** `index.html` in any modern web browser.
+- **Interactive UI Elements:**  
+  - Hover effects on navigation links, tweets, and buttons.  
+  - Sticky header with a modern backdrop blur effect for persistent accessibility.  
+  - Sticky sidebar navigation for seamless user experience on larger screens.
 
-## 🔧 Development
+---
 
-To make changes to the styling, you will need the Tailwind CSS CLI installed.
+## Technologies Used
 
-1. **Watch for changes**:
-   ```bash
-   npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
-   ```
-   *(Note: Adjust the input path `./src/input.css` based on your actual source file location).*
+- **HTML5:** Semantic, accessible markup structure.  
+- **Tailwind CSS:** Utility-first CSS framework enabling rapid and responsive UI development.  
+- **PostCSS:** For processing Tailwind CSS directives.
 
-## 📝 License
+---
 
-This project is a clone created for educational purposes.
+## Getting Started
+
+### Prerequisites
+
+- A modern web browser (Chrome, Firefox, Edge, Safari).  
+- [Node.js](https://nodejs.org/) and npm installed (for development and building CSS).
+
+### Installation
+
+1. **Clone the repository:**
